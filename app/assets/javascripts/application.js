@@ -18,4 +18,6 @@
 // test with bower dependencies
 //= require select2
 
-$('.select2').select2();
+jQuery(function() {
+    $('.select2').select2();
+});
