@@ -17,6 +17,7 @@ gem 'therubyracer', platforms: :ruby
 group :production, :staging do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'passenger'
 end
 
 # Use jquery as the JavaScript library

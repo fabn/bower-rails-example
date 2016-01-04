@@ -1,0 +1,1 @@
+web: bundle exec passenger start --max-pool-size ${WEB_CONCURRENCY:-4}
