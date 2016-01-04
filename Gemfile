@@ -45,3 +45,4 @@ group :development do
   gem 'spring'
 end
 
+gem "bower-rails", "~> 0.10.0"
