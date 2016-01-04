@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Bower stuff fetched with bower-rails
+vendor/assets/bower_components/*

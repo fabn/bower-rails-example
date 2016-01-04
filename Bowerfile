@@ -1,4 +1,25 @@
 # A sample Bowerfile
 # Check out https://github.com/42dev/bower-rails#ruby-dsl-configuration for more options
 
-asset 'bootstrap'
+asset 'angular'
+asset 'angular-sanitize'
+asset 'ngmap', '1.7.10'
+asset 'ngGeolocation'
+asset 'Sortable'
+asset 'angular-google-chart'
+asset 'lodash'
+asset 'restangular'
+# UI-select 0.13 has an issue, see https://github.com/angular-ui/ui-select/issues/1233
+asset 'angular-ui-select', '~> 0.12.0'
+asset 'angular-toastr'
+asset 'select2', '~> 4.0.0'
+asset 'waypoints', '~> 4.0.0'
+# Dependencies for frontend place form
+asset 'trix'
+asset 'jquery.steps'
+asset 'gmaps'
+# Bootstrap dialogs and file upload
+asset 'angular-file-upload'
+asset 'angular-utils-pagination'
+# Angular directives to work with bootstrap, mainly dialogs
+asset 'angular-bootstrap'
