@@ -12,5 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+
+
+// test with bower dependencies
+//= require select2
