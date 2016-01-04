@@ -17,3 +17,5 @@
 
 // test with bower dependencies
 //= require select2
+
+$('.select2').select2();

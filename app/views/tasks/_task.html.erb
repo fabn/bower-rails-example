@@ -1,0 +1,4 @@
+<li>
+  <%= check_box_tag dom_id(task, prefix: :tsk), 1, task.completed? -%>
+  <%= link_to task.description, task -%>
+</li>
